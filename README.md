@@ -1,6 +1,7 @@
 # BayesPharmacogenetics
 
 R data and code for the paper:
+
 "A Bayesian Approach for Investigating the Pharmacogenetics of Combination Antiretroviral Therapy in People with HIV".
 
 ## Instructions for Use
