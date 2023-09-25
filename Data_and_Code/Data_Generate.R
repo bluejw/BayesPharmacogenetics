@@ -242,4 +242,4 @@ tree$`1-2`$AddChild("2-3"); tree$`1-2`$`2-3`$node_prior <- 1-(a*(1+2)^(-b))
 tree$`1-2`$`2-3`$set <- available_set
 tree$`1-2`$AddChild("2-4"); tree$`1-2`$`2-4`$node_prior <- 1-(a*(1+2)^(-b))
 tree$`1-2`$`2-4`$set <- available_set
-print(tree, "split", "rule", "prior", "node_prior", "set")
+print(tree, "split", "rule")

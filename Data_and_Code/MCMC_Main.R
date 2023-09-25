@@ -72,7 +72,7 @@ for (nit in 2:Nit){
   tree_update <- update_tree(Clone(mcmc$tree[[nit-1]]), mcmc$sigma2_omega[nit-1,1:mcmc$L[nit-1]], 
                              mcmc$rho[nit-1,1:mcmc$L[nit-1]],mcmc$sigma2[nit-1], 
                              mcmc$etheta[nit-1,], mcmc$Btheta[nit-1,,])
-  print(tree_update, "split", "rule", "prior", "node_prior", "set")
+  print(tree_update, "split", "rule")
   mcmc$tree <- c(mcmc$tree, tree_update)
   mcmc$R_tilde[nit,] <- tree_update$index
   mcmc$L[nit] <- length(unique(mcmc$R_tilde[nit,]))-1
